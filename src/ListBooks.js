@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom'
 import Shelf from './Shelf'
 
 class ListBooks extends Component {
-//   static propTypes = {
-//     contacts: PropTypes.array.isRequired,
-//     onDeleteContact: PropTypes.func.isRequired,
-//   }
   state = {
     query: ''
   }
@@ -21,12 +17,6 @@ class ListBooks extends Component {
   render() {
     const { query } = this.state
     const { books, onUpdateCategory, onClearSearch } = this.props
-
-    // const showingContacts = query === ''
-    //   ? contacts
-    //   : contacts.filter((c) => (
-    //       c.name.toLowerCase().includes(query.toLowerCase())
-    //     ))
 
     return (
       <div className='list-books'>
