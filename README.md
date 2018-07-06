@@ -37,8 +37,8 @@ To get started developing right away:
     └── SearchBook.js # This builds the search page. You can search and see the list of result.
 ```
 
-## package.json
-`{
+### package.json
+`"{
   "dependencies": {
     "prop-types": "^15.6.1",
     "react": "^16.4.1",
@@ -55,7 +55,7 @@ To get started developing right away:
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
-}`
+}"`
 
 ## Backend Server
 
