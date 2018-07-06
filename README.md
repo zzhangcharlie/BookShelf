@@ -37,26 +37,6 @@ To get started developing right away:
     └── SearchBook.js # This builds the search page. You can search and see the list of result.
 ```
 
-### package.json
-`"{
-  "dependencies": {
-    "prop-types": "^15.6.1",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-router-dom": "^4.3.1",
-    "react-throttle": "^0.3.0"
-  },
-  "devDependencies": {
-    "react-scripts": "1.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
-}"`
-
 ## Backend Server
 
 To simplify your development process, we've provided a backend server for you to develop against. The provided file [`BooksAPI.js`](src/BooksAPI.js) contains the methods you will need to perform necessary operations on the backend:
